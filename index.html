@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head></head>
+<link rel="stylesheet" href="style.css"/>
+<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet" type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet" type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+<body>
+  <div id = "container">
+    <h1>Tip Calculator</h1>
+    <div id="background-container">
+      <img id="background-img" src="https://lh3.googleusercontent.com/hXTaa8gqkzqNyzNyOjg2M2VRLeKkFuuS5ZVbPj-TH413zBVT5d1mFpwX_kCbObCFpvIll2GYi_MGQAwKs8l6UjzWYQY0halSxAIdN3VH9BPLNRPwaLAlVOEhF2CoE2W-08DH1yAT=w2400"/>
+    </div>
+  <div id = "calculator">
+    <form>
+      <h2>How much was your bill?</h2>
+        <span>$</span>
+        <input type ="text" id="bill-amt" class="text-input"placeholder="Bill Amount">
+      <h2>How was your service?</h2>
+        <div id="select-container">
+          <select id= "service-qual">
+            <option disabled selected value = "0">Choose an Option</option>
+            <option value = "0.3">30% - Amazing!</option>
+            <option value = "0.2">20% - Good</option>
+            <option value = "0.15">15% - Ok</option>
+            <option value = "0.1">10% - Poor</option>
+          </select>
+        </div>
+        </form>
+        <h2>How many people are splitting the bill?</h2>
+          <input type="text" id="num-of-checks" class="text-input" placeholder="Number of People">
+          </input>
+          <br>
+        <button id ="calc-button" type ="button">Calculate</button>
+  </div>
+  <div id = "total-tip">
+    <h3>Total Tip:</h3>
+      <sup>$</sup>
+      <span class="tip-container" id="tip">0</span>
+      <small>each</small>
+  </div>
+</div>
+<script src = "main.js"></script>
+</body>
