@@ -24,31 +24,32 @@ h1 {
   font-size: 3.5rem;
   font-weight: 700;
   margin: 60px 0 30px 0;
-  max-width: 300px;
+  max-width: 250px;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
-
-}
-#tip {
   letter-spacing: 4px;
-  height: 0;
+}
+#tip-header {
+  letter-spacing: 4px;
   display: flex;
   justify-content: space-between;
 }
 h3 {
-  font-size: 2.2rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 700;
   margin: 10px 0;
+  letter-spacing: 3px;
 }
 #calculator {
-  background-color: #b6e3e4;
-  font-family: 'Lato', sans-serif;
-  color: #ed4034;
-  font-size: 16px;
-  padding: 10px 10px 20px 10px;
-  border-radius: 20px;
+  background-color: #eebfdc;
+  font-family: 'Work Sans', sans-serif;
+  color: #1926ea;
+  font-size: 2.1rem;
+  padding: 10px 10px 30px 10px;
+  border-style: solid;
   width: 485px;
+  letter-spacing: 2px;
 }
 #background-container {
   height: 0;
@@ -80,28 +81,28 @@ small {
   font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 5px 10px 10px 10px;
+  margin: 20px 10px 100px 10px;
 }
 .tip-container {
   color: #ed4034;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 35px;
-  /*padding: 5px 10px 10px 10px;*/
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 #calc-button {
   margin: 30px 10px 10px 10px;
-  background-color: #ffbade;
-  font-size: 15px;
-  color: #5670ff;
+  background-color: #c5dad9;
+  color: #ff4336;
   font-family: 'Work Sans', sans-serif;
-  border: 0;
+  font-size: 1.3rem;
   padding: 10px;
-  border-radius: 10px;
+  border-style: solid;
+  border-color: #ff4336;
   cursor: pointer;
 }
 
 .text-input {
-  height: 10px;
+  height: 30px;
   padding: 5px;
   border-bottom-style: none;
   border-bottom-color: #7f7f7f;
@@ -113,28 +114,38 @@ small {
   border-right-width: 0px;
   border-top-width: 0px;
   outline-style: none;
-  font-size: 10px;
+  font-size: 1.5rem;
   border-radius: 5px;
 }
 #select-container {
   position: relative;
+  font-size: 1.5rem;
+  height: 30px;
   /*top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);*/
+}
+
+#tip-amt {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 #select-container select {
   background-color: #fff;
   color: #7f7f7f;
   padding: 0 5px;
-  width: 121px;
+  width: fit-content;
   border: none;
   font-size: 10px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
   -webkit-appearance: button;
   appearance: button;
   outline: none;
-  height: 20px;
+  position: relative;
+  font-size: 1.5rem;
+  height: 30px;
 }
 
 #select-container:hover::before {
