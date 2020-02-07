@@ -101,8 +101,6 @@ small {
   cursor: pointer;
 }
 #calc-button:hover {
-  border: 1px solid #ff4336;
-  border-radius: 30px;
   width: 150px;
 }
 
