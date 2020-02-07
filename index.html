@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <head></head>
 <link rel="stylesheet" href="style.css"/>
-<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet" type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet" type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&display=swap" rel="stylesheet">
 <body>
   <div id = "container">
-    <h1>Tip Calculator</h1>
+    <h1>
+      <span id='tip'>Tip</span>
+      <br />
+      Calcu
+      <br />
+      lator
+    </h1>
     <div id="background-container">
-      <img id="background-img" src="https://lh3.googleusercontent.com/hXTaa8gqkzqNyzNyOjg2M2VRLeKkFuuS5ZVbPj-TH413zBVT5d1mFpwX_kCbObCFpvIll2GYi_MGQAwKs8l6UjzWYQY0halSxAIdN3VH9BPLNRPwaLAlVOEhF2CoE2W-08DH1yAT=w2400"/>
+      <!-- <img id="background-img" src="https://lh3.googleusercontent.com/hXTaa8gqkzqNyzNyOjg2M2VRLeKkFuuS5ZVbPj-TH413zBVT5d1mFpwX_kCbObCFpvIll2GYi_MGQAwKs8l6UjzWYQY0halSxAIdN3VH9BPLNRPwaLAlVOEhF2CoE2W-08DH1yAT=w2400"/> -->
     </div>
   <div id = "calculator">
     <form>
-      <h2>How much was your bill?</h2>
+      <p>How much was your bill?</p>
         <span>$</span>
         <input type ="text" id="bill-amt" class="text-input"placeholder="Bill Amount">
-      <h2>How was your service?</h2>
+      <p>How was your service?</p>
         <div id="select-container">
           <select id= "service-qual">
             <option disabled selected value = "0">Choose an Option</option>
@@ -27,7 +30,7 @@
           </select>
         </div>
         </form>
-        <h2>How many people are splitting the bill?</h2>
+        <p>How many people are splitting the bill?</p>
           <input type="text" id="num-of-checks" class="text-input" placeholder="Number of People">
           </input>
           <br>

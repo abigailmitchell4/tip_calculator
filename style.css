@@ -1,35 +1,51 @@
-body {
-  background-color: #ebfff7;
-  select-container-sizing: border-box;
-  margin: 0 auto;
-
+* {
+  font-family: 'Lato',sans-serif;
 }
-div {
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container {
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
   position: relative;
-  align-self: center;
-  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 h1 {
-  color: #FC4A1A;
-  font-family: 'Monoton';
-  font-size: 50px;
-  font-weight: 300;
-  margin: 15px 0;
+  color: #101010;
+  font-family: 'Lato',sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 60px 0 30px 0;
+  max-width: 300px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
 
 }
+#tip {
+  letter-spacing: 4px;
+  height: 0;
+  display: flex;
+  justify-content: space-between;
+}
 h3 {
-  font-size: 40px;
-  font-weight: 300;
+  font-size: 2.2rem;
+  font-weight: 400;
   margin: 10px 0;
 }
 #calculator {
-  background-color: #c98d2f;
-  font-family: 'Work Sans', sans-serif;
-  color: #dceeff;
-  font-size: 15px;
+  background-color: #b6e3e4;
+  font-family: 'Lato', sans-serif;
+  color: #ed4034;
+  font-size: 16px;
   padding: 10px 10px 20px 10px;
   border-radius: 20px;
   width: 485px;
@@ -47,25 +63,27 @@ h3 {
 }
 sup {
   padding: 5px;
-  color: #5670ff;
+  color: #ed4034;
   font-family: 'Work Sans', sans-serif;
 }
 small {
   padding-left: 5px;
   font-family: 'Work Sans', sans-serif;
-  color: #5670ff;
+  color: #ed4034;
   font-size: 15px;
   position: relative;
   bottom: 5px;
 }
 #total-tip {
-  color: #FC4A1A;
-  font-family: 'Monoton';
-  font-size: 35px;
+  color: #101010;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
   margin: 5px 10px 10px 10px;
 }
 .tip-container {
-  color: #5670ff;
+  color: #ed4034;
   font-family: 'Work Sans', sans-serif;
   font-size: 35px;
   /*padding: 5px 10px 10px 10px;*/
