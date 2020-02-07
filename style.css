@@ -100,8 +100,20 @@ small {
   border-color: #ff4336;
   cursor: pointer;
 }
+
+@keyframes button {
+  0% {
+    width: 120px;
+    border-radius: 0;
+  }
+
+  100% {
+    width: 150px;
+    border-radius: 30px;
+  }
+}
 #calc-button:hover {
-  width: 150px;
+  animation: button .4s forwards ease-out;
 }
 
 .text-input {
